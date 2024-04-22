@@ -1,0 +1,280 @@
+@font-face {
+    font-family: GemsbuckBlack;
+    src: url(../fonts/Gemsbuck01Black.otf);
+}
+
+@font-face {
+    font-family: GemsbuckMedium;
+    src: url(../fonts/Gemsbuck01Medium.otf);
+}
+
+.typed {
+    overflow: hidden;
+    
+    
+    animation: typing;
+    animation-duration: 2s;
+    animation-timing-function: steps(40, end);
+    animation-fill-mode: forwards;
+  }
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+@keyframes SlideRight {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+
+}
+
+@keyframes SlideLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2, h3{
+    background-color: white;
+    
+}
+
+h1,h2,h3 {
+    font-family: GemsbuckBlack;
+}
+li, p {
+    font-family: GemsbuckMedium;
+}
+.topText{
+    text-align: right;
+    margin-left: 50%;
+    margin-bottom: 3%;
+    font-family: GemsbuckBlack;
+}
+
+.h1text{
+    animation: SlideRight 2s ease 0s 1 normal forwards;
+}
+
+#intro{
+    margin-bottom: 2%;
+    width: 40%;
+    background-color: white;
+    animation: SlideLeft 2s ease 0s 1 normal forwards;
+}
+
+
+
+.themeSong{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	align-content: stretch;
+    animation: SlideRight 2s ease 0s 1 normal forwards;
+}
+
+.textUp{
+    align-self: flex-end;
+}
+
+
+.spotify{
+    margin: 1%;
+    align-self: flex-end;
+    flex-basis: 100%;
+}
+
+#themeSongText{
+    background-color: white;
+
+}
+.pic{
+    height: 300px;
+    align-items: flex-end;
+    margin-left: 50%;
+}
+
+.aboutMeText{
+    line-height: 2;
+    display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	align-content: stretch;
+    
+}
+
+p span{
+    background-color: white;
+}
+
+#introText{
+    align-self: flex-start;
+    width: 80%;
+    animation: SlideLeft 2s ease 0s 1 normal forwards;
+}
+
+.aboutMePic{
+    align-self: flex-end;
+    margin-top: 5%;
+    background-color: white;
+    width: 50%;
+    animation: SlideRight 2s ease 0s 1 normal forwards;
+}
+
+#p1{
+    align-self: flex-start;
+    text-align: left;
+}
+
+#p2{
+    align-self: flex-end;
+    text-align: right;
+}
+
+#p3{
+    align-self: flex-start;
+    text-align: left;
+}
+
+#p4 {
+    align-self: flex-end;
+    text-align: right;
+}
+
+#p5 {
+    align-self: flex-start;
+    text-align: left;
+}
+
+p{
+    font-size: 24px;
+}
+
+.bucketList{
+    line-height: 2;
+    
+}
+.gameList{
+    margin-left: 10%;
+}
+.animeList{
+    margin-left: 10%;
+}
+#item1{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 50%;
+    background-color: white;
+}
+
+#item2{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 69%;
+    background-color: white;
+}
+
+#item3{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 40%;
+    background-color: white;
+}
+
+#item4{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 90%;
+    background-color: white;
+}
+
+#item5{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 60%;
+    background-color: white;
+}
+
+#item6{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 20%;
+    background-color: white;
+}
+
+#uItem1{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 50%;
+    background-color: white;
+}
+
+#uItem2{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 85%;
+    background-color: white;
+}
+
+#uItem3{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 50%;
+    background-color: white;
+}
+
+#uItem4{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 69%;
+    background-color: white;
+}
+
+#uItem5{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 40%;
+    background-color: white;
+}
+
+#uItem6{
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 30%;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+}
